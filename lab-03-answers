@@ -1,0 +1,52 @@
+ANSWERS
+
+(2)
+(c) Training MSE: XXXX
+(d) Test MSE: XXXX 
+(e) Your answer: XXXX
+
+
+(3)
+(b) 
+Feature 1: XXXX (coef: XXXX)
+Feature 2: XXXX (coef: XXXX)
+Feature 3: XXXX (coef: XXXX)
+
+(c) 
+Feature 1: XXXX (coef: XXXX)
+Feature 2: XXXX (coef: XXXX)
+Feature 3: XXXX (coef: XXXX)
+
+(d) y-intercept: XXXX 
+
+(4) 
+(c1) Best hyperparameters: 
+* strategy: XXXX
+* poly degree: XXXX
+* n neighbors: XXXX
+* weight: XXXX
+(c2) Best MSE: XXXX
+(d) Time: XXXX
+(f) test MSE: XXXX 
+(g) Your answer: XXXX
+
+(5) - (Repeat of (4) with RandomizedGridSearch)
+(c1) Best hyperparameters: 
+* strategy: XXXX
+* poly degree: XXXX
+* n neighbors: XXXX
+* weight: XXXX
+(c2) Best MSE: XXXX
+(d) Time: XXXX
+(f) test MSE: XXXX 
+(g) Your answer: XXXX
+(h) Your answer: XXXX
+
+(6) 
+(b1) Training MSE: XXXX
+(b2) Test MSE: XXXX 
+(c) Your answer: XXXX
+
+(7) 
+(b) Your answer: XXXX
+
