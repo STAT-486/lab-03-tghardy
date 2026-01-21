@@ -1,52 +1,52 @@
 ANSWERS
 
 (2)
-(c) Training MSE: XXXX
-(d) Test MSE: XXXX 
-(e) Your answer: XXXX
+(c) Training MSE: 1.5350956362420858
+(d) Test MSE: 1.754330861094835 
+(e) Your answer: The test MSE is much smaller than the variance of y_test. This indicates that our model most likely predicts well with a rather tight spread.
 
 
 (3)
-(b) 
-Feature 1: XXXX (coef: XXXX)
-Feature 2: XXXX (coef: XXXX)
-Feature 3: XXXX (coef: XXXX)
+(b)
+Feature 1: Salnty Depthm (coef: 147.569766)
+Feature 2: Salnty Dry_T (coef: 35.153778)
+Feature 3: Salnty O2ml_L (coef: 32.217666)
 
 (c) 
-Feature 1: XXXX (coef: XXXX)
-Feature 2: XXXX (coef: XXXX)
-Feature 3: XXXX (coef: XXXX)
+Feature 1: Depthm (coef: -146.550613)
+Feature 2: O2ml_L (coef: -37.244657)
+Feature 3: Dry_T (coef: -34.383804)
 
-(d) y-intercept: XXXX 
+(d) y-intercept:  11.607865265528682
 
 (4) 
 (c1) Best hyperparameters: 
-* strategy: XXXX
-* poly degree: XXXX
-* n neighbors: XXXX
-* weight: XXXX
-(c2) Best MSE: XXXX
-(d) Time: XXXX
-(f) test MSE: XXXX 
-(g) Your answer: XXXX
+* strategy: median
+* poly degree: 3
+* n neighbors: 10
+* weight: distance
+(c2) Best MSE: 1.2262958
+(d) Time: 38.4 seconds
+(f) test MSE: 1.23984372 
+(g) Your answer: Yes, it has a lower MSE
 
 (5) - (Repeat of (4) with RandomizedGridSearch)
 (c1) Best hyperparameters: 
-* strategy: XXXX
-* poly degree: XXXX
-* n neighbors: XXXX
-* weight: XXXX
-(c2) Best MSE: XXXX
-(d) Time: XXXX
-(f) test MSE: XXXX 
-(g) Your answer: XXXX
-(h) Your answer: XXXX
+* strategy: median
+* poly degree: 2
+* n neighbors: 5
+* weight: uniform
+(c2) Best MSE: 1.357569518
+(d) Time: 1.7 seconds
+(f) test MSE: 1.370625 
+(g) Your answer: Yes, it has a lower MSE
+(h) Your answer: The results of both methods were honestly pretty similar. The Grid Search obviously resulted in a lower best MSE, and the test MSE was lower as well than the Random Search. The Random Search was much faster though, so for larger amounts of hyperparameters it would probably be ideal (especially since the difference isn't that big).
 
 (6) 
-(b1) Training MSE: XXXX
-(b2) Test MSE: XXXX 
-(c) Your answer: XXXX
+(b1) Training MSE: ~0
+(b2) Test MSE: 1.46237767 
+(c) Your answer: Maybe, but it's hard to say. The optimal grid search model performed better on the test data. It also has a higher MSE than the same model hyperparameters with only numeric data. If it were optimized, I would not be surprised if it outperformed the other models.
 
 (7) 
-(b) Your answer: XXXX
+(b) Your answer: I thought it was interesting that pipelines support slicing (easy access to the last step, for instance). It's also really nice that you can create column selecting transformers to feed into pipelines.
 
